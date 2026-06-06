@@ -1,2 +1,40 @@
-.btn{border:2px solid black;}
-button{background-color:gray;}
+button{
+	padding:5px;
+	border-radius:15px 15px 15px 15px;
+	background-color:white;
+	color:black;
+	
+}
+.header{
+	width:400px;
+	padding:70px 60px;
+	border:1px solid gray;
+	border-radius:15px 15px 15px 15px;
+	
+}
+a{color:black;
+text-decoration:none;}
+
+button a:hover{background-color:gray;}
+
+.img{background-image:url("pic.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center;}
+
+.head{
+	display:flex;
+	justify-content:space-between;
+}
+img{
+	border-radius:100%;
+}
+.navi{color:white;}
+
+li{display:inline;
+margin-right:30px;
+list-style-type:none;}
+
+.content{text-align:center;
+color:white;}
+
