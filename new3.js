@@ -1,6 +1,10 @@
-const colors=[
-	"Blue","Green"
-];
-for(let key of colors) {
-	console.log(key);
-}
+let a=50;
+let b=10;
+
+console.log(a==b);
+console.log(a!=b);
+console.log(a<b);
+console.log(a>b);
+console.log(a<=b);
+console.log(a>=b);
+

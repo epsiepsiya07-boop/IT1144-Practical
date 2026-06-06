@@ -1,5 +1,7 @@
-const num=[1,2,3];
+let a=51;
 
-for(let key of num)  {
-	console.log(key);
-}
+
+if ((a%2==0) && (a>=0))
+	console.log("a is a positive and even number");
+else
+	console.log("a is not positive and even number");

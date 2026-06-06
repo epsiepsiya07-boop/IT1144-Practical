@@ -1,7 +1,5 @@
-const person ={
-	name:"Epsiya",
-	age:30
-};
-for(let key in person){
-	console.log(key + ":" + person [key]);
-}
+let name ="Epsiya";
+let number=10;
+
+console.log(name);
+console.log(number);
